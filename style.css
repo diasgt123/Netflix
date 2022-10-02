@@ -1,0 +1,140 @@
+.logo
+{
+    position: relative;
+    padding-top: 0.6%;
+    margin-left: 2.5%;
+    scale: 0.9;
+
+}
+body
+{
+    margin-left: 20px;
+    /* background-image: url("blondepic.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color:black;
+    overflow-x: hidden;
+}
+
+
+.heading
+{
+    /* margin-top: 0%; */
+    /* margin-left: 10%;   */
+    position: relative;
+    cursor: pointer;
+    color: aliceblue;
+    font-family:sans-serif;
+    font-weight:500;
+    font-size:small;
+    letter-spacing: 0;
+    display: inline-block;
+
+}
+.heading:hover
+{
+  cursor: pointer;
+}
+
+.profile
+{
+    border-radius: 12%;
+}
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    zoom: 50%;
+    scale: 2;
+  }
+  .bar
+{
+    margin-top: -1%;
+    cursor: pointer;
+}
+  .content
+  { 
+    padding-left: 8%;
+    padding-top: 9%;
+    scale: 1.2;
+    color: white;
+
+  }
+ .text
+ {
+    font-size:large;
+    margin-left: 2%;
+    font-weight: 600;
+    font-family: sans-serif;
+
+ }
+#mypic { 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    zoom: 50%;
+  }
+  /* #mypic:click
+  {
+    scale: 0;
+  }  */
+  .playbutton
+  {
+    margin-top: 4.5%;
+    margin-left: 2%;
+    background-color: rgb(255, 255, 255);
+    /* color: black; */
+    /* border: none; */
+    padding: 8px 25px;
+    /* text-align: center; */
+    display: inline-block;
+    border-radius: 8px;
+    }
+    .playbutton:hover
+    {
+      opacity: 0.8;
+    }
+    .info
+    {
+      margin-left: 20px;
+      padding: 9px 10px;
+      background-color: rgb(85,90,89);
+      border-radius: 8px;
+    }
+    .info:hover
+    {
+      opacity: 0.8;
+    }
+    .text1
+    {
+      padding-top: 80px;
+      margin-left: 40px;
+      color: white;
+    }
+    h1
+    {
+      font-family: sans-serif;
+    }
+    .poster1
+    {
+      margin-left: 40px;
+    }
+    .text2
+    {
+      padding-top: 20px;
+      margin-left: 40px;
+      color: white;
+    }
+    .card:hover
+{
+    transform: scale(1.1);
+}
+.card:hover:after
+{
+    height: 280px;
+}

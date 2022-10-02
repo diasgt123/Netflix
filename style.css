@@ -8,11 +8,11 @@
 }
 body
 {
-    margin-left: 20px;
-    /* background-image: url("blondepic.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
+    margin-left: 10px;
+    background-image: url("blondepic.jpg");
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:contain;
     background-color:black;
     overflow-x: hidden;
 }
@@ -130,11 +130,21 @@ body
       margin-left: 40px;
       color: white;
     }
+    .card
+    {
+      display: inline;
+      padding-left: 10px;
+    }
     .card:hover
 {
     transform: scale(1.1);
+    transition-duration: 250ms;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    /* padding: 0 2px; */
+    margin: 0 10px;
 }
-.card:hover:after
+/* .card:hover:after
 {
     height: 280px;
-}
+} */

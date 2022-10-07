@@ -190,3 +190,12 @@ img.card
   font-size: small;
   font-family: sans-serif;
 }
+.card1
+{
+  width: 500%;
+  overflow-x: hidden;
+}
+.last img
+{
+  opacity: 0.2;
+}

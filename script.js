@@ -5,6 +5,5 @@
 
   // },3000);
   setInterval(function(){
-    document.getElementById('mypic').style.scale='0'
-
+    document.getElementById('mypic').style.scale='0';
   },2000);

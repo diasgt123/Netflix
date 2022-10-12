@@ -35,9 +35,10 @@ text-decoration: underline;
 }
 body
 {
-    /* margin-left: 10px; */
-    background-color:rgb(22, 22, 22);
-    overflow-x: hidden;
+  /* margin-left: 10px; */
+  background-color:rgb(22, 22, 22);
+  overflow-x: hidden;
+  scroll-behavior:smooth;
 }
 
 #myVideo 
@@ -56,7 +57,7 @@ body
   .content
 { 
   padding-left: 8%;
-  padding-top: 14%;
+  padding-top: 11%;
   scale: 1.2;
   color: white;
   z-index: -2;
@@ -108,7 +109,7 @@ body
 }
 .text1
 {
-  padding-top: 80px;
+  padding-top: 60px;
   margin-left: 40px;
   color: white;
 }
@@ -144,13 +145,12 @@ img.card
   padding-right: 10px;
   padding-left: 10px;
   margin: 0 10px;
-  
 }
 
-.heading-fixed-top.scrolled {
+/* .heading-fixed-top.scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
-}
+} */
 .social-media {
   margin-top: 100px;
   margin-left : 450px;
@@ -193,9 +193,13 @@ img.card
 .card1
 {
   width: 500%;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 .last img
 {
   opacity: 0.2;
+}
+.arrow
+{
+  position: -100px;
 }
